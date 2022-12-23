@@ -6,13 +6,13 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 ### 🗂 Bilgi
 - Dil: Python.
 - Libraries Kütüphaneler: Telethon & Pyrogram İlk Ve Tek.
-- [Developer](https://t.me/yigitcanb3y)✨
+- [Developer](https://t.me/ondanbitmis)✨
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yigitcanb3y/tagger_bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/derdomucis/tagger_bot)
 
 
-**Beni [Github'dan](https://github.com/yigitcanb3y) takip etmeyi unutmayın ✌️**
+**Beni [Github'dan](https://github.com/derdomucis) takip etmeyi unutmayın ✌️**
 
 
 
