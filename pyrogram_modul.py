@@ -71,3 +71,4 @@ async def pingy(client, message):
 app.start()
 print(f"Botun pyrogram modülleri ( {pyrogram.__version__} sürümü ile başlatıldı. ")
 idle()
+
