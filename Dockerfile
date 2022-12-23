@@ -19,3 +19,4 @@ RUN pip3 install -U -r requirements.txt
 
 RUN chmod a+x start
 CMD ["./start"]
+
