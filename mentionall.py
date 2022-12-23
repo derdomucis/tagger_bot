@@ -45,9 +45,9 @@ async def start(event):
 		                      
                       [Button.url('Beni Gruba Ekle ➕', f"https://t.me/{bot_username}?startgroup=a")],
                       [Button.url('Support🛠', f"https://t.me/{support}")],
-                      [Button.url('Sahibim', f"https://t.me/{owner}")],
-		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/SakirBey1')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+                      [Button.url('Sahibim', f"https://t.me/ondanbitmis{owner}")],
+		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/ondanbitmis)],
+		                  [Button.url('Github Code', 'https://ondanbitmis.com')],
                     ),
                     link_preview=False
                    )
@@ -61,8 +61,8 @@ async def help(event):
                       [Button.url('Beni Gruba Ekle➕', f"https://t.me/{bot_username}?startgroup=a")],
                       [Button.url('Support🛠', f"https://t.me/{support}")],
                       [Button.url('Sahibim🔖', f"https://t.me/{owner}")],
-		                  [Button.url('Developer🧑‍🔧', 'https://t.me/yigitcanb3y')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+		                  [Button.url('Developer🧑‍🔧', 'https://t.me/ondanbitmis')],
+		                  [Button.url('Github Code', 'https://t.me/ondanbitmis.com')],
                     ),
                     link_preview=False
                    )
@@ -83,13 +83,13 @@ bayrak = "🏳️‍🌈 🏳️‍⚧️ 🇺🇳 🇦🇫 🇦🇽 🇦🇱 �
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
-    return await event.respond("**Bu komutu gruplar ve kanallar için geçerli❗** \n@SakirBey2 ☄️")
+    return await event.respond("**Bu komutu gruplar ve kanallar için geçerli❗** \n@@ondanbitmis ☄️")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond("**Bu komutu sadace yoneticiler kullana bilir〽️** \n@SakirBey2 ☄️")
+    return await event.respond("**Bu komutu sadace yoneticiler kullana bilir〽️** \n@ondanbitmis ☄️")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -376,11 +376,11 @@ async def start(event):
                       [Button.url('Beni Gruba Ekle ➕', f"https://t.me/{bot_username}?startgroup=a")],
                       [Button.url('Support🛠', f"https://t.me/{support}")],
                       [Button.url('Sahibim', f"https://t.me/{owner}")],
-		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/yigitcanb3y')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/ondanbitmis')],
+		                  [Button.url('Github Code', 'https://ondanbitmis.com')],
                     ),
                     link_preview=False
                    )
 
-print(">> Bot çalıyor merak etme 🚀 @yigitcanb3y bilgi alabilirsin <<")
+print(">> Bot çalıyor merak @ondanbitmis bilgi alabilirsin <<")
 client.run_until_disconnected()
