@@ -14,3 +14,4 @@ class Config():
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT")
     OWNER_ID = int(os.environ.get("OWNER_ID"))
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
+
